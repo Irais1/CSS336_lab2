@@ -63,7 +63,7 @@
         }
         function play()
         {
-            for($i = 1; $i < 4; $i++)
+            for($i = 1; $i < 1; $i++)
         {
             ${"randomValue" . $i} = rand(0,3);
             displaySymbol(${"randomValue". $i},$i);
